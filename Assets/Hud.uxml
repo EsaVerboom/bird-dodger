@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameHUD.uss?fileID=7433441132597879392&amp;guid=ac9fb0d0cc9f6a44fa9707a5cdaadc07&amp;type=3#GameHUD"/>
+    <ui:VisualElement name="root">
+        <ui:Label name="scoreLabel" text="Score: 0"/>
+        <ui:Label name="highScoreLabel" text="High Score: 0"/>
+        <ui:Label name="gameOverLabel" text="GAME OVER"/>
+        <ui:Button name="restartButton" text="Restart"/>
+    </ui:VisualElement>
+</ui:UXML>
